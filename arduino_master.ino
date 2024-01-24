@@ -5,6 +5,7 @@
 void setup()
 {
   Serial.begin(9600);
+  pinMode(potpin, INPUT);
 }
 
 void loop()
